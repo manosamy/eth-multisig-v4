@@ -1,6 +1,6 @@
 // File: @uniswap/lib/contracts/libraries/TransferHelper.sol
 
-// SPDX-License-Identifier: GPL-3.0-or-later
+// SPDX-License-Identifier: GPL-3.0-or-later AND Apache-2.0 AND MIT
 
 pragma solidity >=0.6.0;
 
@@ -54,7 +54,6 @@ library TransferHelper {
 
 // File: contracts/ERC20Interface.sol
 
-// SPDX-License-Identifier: UNLICENSED
 pragma solidity 0.7.5;
 
 /**
@@ -78,7 +77,6 @@ abstract contract ERC20Interface {
 
 // File: contracts/Forwarder.sol
 
-// SPDX-License-Identifier: Apache-2.0
 pragma solidity 0.7.5;
 
 
@@ -179,7 +177,6 @@ contract Forwarder {
 
 // File: contracts/WalletSimple.sol
 
-// SPDX-License-Identifier: Apache-2.0
 pragma solidity 0.7.5;
 
 
@@ -656,7 +653,6 @@ contract WalletSimple {
 
 // File: contracts/CloneFactory.sol
 
-// SPDX-License-Identifier: MIT
 // from https://github.com/optionality/clone-factory
 pragma solidity 0.7.5;
 
@@ -757,7 +753,6 @@ contract CloneFactory {
 
 // File: contracts/WalletFactory.sol
 
-// SPDX-License-Identifier: Apache-2.0
 pragma solidity 0.7.5;
 
 
