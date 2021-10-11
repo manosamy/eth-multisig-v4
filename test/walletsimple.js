@@ -18,6 +18,7 @@ const EthWalletSimple = artifacts.require('./WalletSimple.sol');
 const RskWalletSimple = artifacts.require('./RskWalletSimple.sol');
 const EtcWalletSimple = artifacts.require('./EtcWalletSimple.sol');
 const CeloWalletSimple = artifacts.require('./CeloWalletSimple.sol');
+const XdaiWalletSimple = artifacts.require('./XdaiWalletSimple.sol');
 const Fail = artifacts.require('./Fail.sol');
 const GasGuzzler = artifacts.require('./GasGuzzler.sol');
 const GasHeavy = artifacts.require('./GasHeavy.sol');
@@ -116,6 +117,13 @@ const coins = [
     nativeBatchPrefix: 'CELO-Batch',
     tokenPrefix: 'CELO-ERC20',
     WalletSimple: CeloWalletSimple
+  },
+  {
+    name: 'xDai',
+    nativePrefix: 'XDAI',
+    nativeBatchPrefix: 'XDAI-Batch',
+    tokenPrefix: 'XDAI-ERC20',
+    WalletSimple: XdaiWalletSimple
   }
 ];
 
