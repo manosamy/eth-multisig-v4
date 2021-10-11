@@ -20,6 +20,7 @@ describe('Contracts', async () => {
     'coins/EtcWalletSimple.sol',
     'coins/RskWalletSimple.sol',
     'coins/CeloWalletSimple.sol',
+    'coins/XdaiWalletSimple.sol',
     'WalletFactory.sol',
     'ForwarderFactory.sol',
     'CloneFactory.sol'
